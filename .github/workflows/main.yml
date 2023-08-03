@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: lumin.ontrgt.ru/public_html/
+        server: lumin.ontrgt.ru
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
 
